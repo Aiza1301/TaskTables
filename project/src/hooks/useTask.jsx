@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-const UseTasks = () => { 
+const useTasks = () => { 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -23,4 +23,4 @@ const UseTasks = () => {
   return { data, loading }; 
 };
 
-export default  UseTasks;
+export default  useTasks;

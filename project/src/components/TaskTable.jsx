@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Table, Tag } from "antd";
 import TaskSearch from "./TaskSearch";
-import UseTasks from "../hooks/UseTasks";
+import useTasks from "../hooks/useTask";
 
 function TaskTable() {
-    const { data, loading } = UseTasks();
+    const { data, loading } = useTasks();
     const [serachText , setSerachText] = useState('');
 
     const handleSeach = (value) => {
