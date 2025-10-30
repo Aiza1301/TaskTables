@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.loginPage {
+    // height: 300px;
+    width: 350px;
+    background-color: #fff;
+
+
+    &__title {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        padding: 24px 24px;
+
+    }
+
+    &__text {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        padding: 2.5px 24px;
+    }
+
+    &__email {
+        border: 2px solid black;
+    }
+
+    &__inputt {
+        font-size: 24px;
+        line-height: 1.33%;
+        width: 80%;
+        height: 35px;
+        padding: 5px 10px;
+        margin: 0 0 12px 18px;
+        border-radius: 4px;
+        color: dimgrey;
+        border: 2px solid #9a9da1;
+        cursor: pointer;
+
+    }
+
+    &__check {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+    }
+
+    &__check input {
+        border: 1px solid #8c8f94;
+        border-radius: 4px;
+        margin: 12px 14px;
+        cursor: pointer;
+    }
+
+    &__button {
+        width: 90%;
+        height: 35px;
+        background: #2271b1;
+        border-color: #2271b1;
+        color: #fff;
+        text-decoration: none;
+        text-shadow: none;
+        margin: 12px 12px;
+
+    }
+    &__bottom{
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        margin: 12px;
+        
+    }
+    &__bottom a {
+        padding: 6px;
+        color: #8c8f94;
+    }
+}
+.language-switcher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    
+}
+a:hover{
+    color: #2271b1;
+    transition: all;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
