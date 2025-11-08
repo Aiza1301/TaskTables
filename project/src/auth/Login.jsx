@@ -11,30 +11,28 @@ function Login() {
   };
 
   const { t } = useLanguage();
-  console.log(t);
+
   return (
     <>
       <div className="container">
         <div className="box">
           <div className="loginPage">
-            <div className="loginPage__title">
-            {t('text')}
-            </div>
+            <div className="loginPage__title">{t("text")}</div>
             <form>
               <div className="loginPage__input">
-                <p className="loginPage__text">{t('emails')}</p>
+                <p className="loginPage__text">{t("emails")}</p>
                 <input type="email" className="loginPage__inputt" />
                 <p className="loginPage__text">{t("Ptext")}</p>
                 <input type="password" className="loginPage__inputt" />
                 <div className="loginPage__check">
                   <label>
                     <input type="checkbox" />
-                    {t('rember')}
+                    {t("rember")}
                   </label>
                 </div>
               </div>
             </form>
-            <button className="loginPage__button">{t('login')}</button>
+            <button className="loginPage__button">{t("login")}</button>
           </div>
           <div className="loginPage__bottom">
             <a href="#">Lost you password?</a>
@@ -47,6 +45,7 @@ function Login() {
               value={language}
               onChange={(e) => hanleChange(e)}
             >
+              
               <option value="uzbek">uzbek</option>
               <option value="russiya"> russiya</option>
               <option value="english">english</option>

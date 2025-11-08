@@ -10,6 +10,8 @@ function useLanguage() {
     return translatsions[key][language];
   };
 
+
+
   return { t: res };
 }
 

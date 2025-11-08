@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import TaskTable from './components/TaskTable'
 import Login from './auth/Login'
+import { LangProvider } from './context/languageContext'
 
 
 function App() {
@@ -8,10 +9,13 @@ function App() {
 
   return (
     <>
-   {/* <div className="container">
+   <div className="container">
    <TaskTable/>
-   </div> */}
+   </div>
+   
+   {/* <LangProvider>
    <Login/>
+   </LangProvider> */}
     </>
   )
 }
